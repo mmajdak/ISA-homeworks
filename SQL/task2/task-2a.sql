@@ -1,0 +1,1 @@
+SELECT "City", COUNT("City") as how_many_workers FROM employees e GROUP BY "City" HAVING COUNT("City") > 3

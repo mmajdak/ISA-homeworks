@@ -1,0 +1,1 @@
+select MIN("Salary"), MAX("Salary") from hrdataset_v14_csv;

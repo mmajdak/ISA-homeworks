@@ -1,0 +1,1 @@
+select count(*) from hrdataset_v14_csv where "Termd" = 0 and "CitizenDesc" not like 'US Citizen';

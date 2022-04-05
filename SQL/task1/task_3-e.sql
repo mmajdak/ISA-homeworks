@@ -1,0 +1,1 @@
+select count(*) from hrdataset_v14_csv where "Position" like 'Production Technician%'; 

@@ -1,0 +1,1 @@
+select count(distinct "EmpID"), case when count(distinct "EmpID") = 311 then 'true - evry ID is unique' else 'false - not each ID is not unique' end from hrdataset_v14_csv;

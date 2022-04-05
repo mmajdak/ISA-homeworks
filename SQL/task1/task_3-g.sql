@@ -1,0 +1,1 @@
+select "ManagerName", AVG("EmpSatisfaction") from hrdataset_v14_csv hvc group by "ManagerName" order by AVG("EmpSatisfaction") desc limit 1;
